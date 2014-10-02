@@ -1,39 +1,27 @@
 {
-  "name": "tweetsaver",
-  "version": "0.0.0",
+  "name": "tweet-saver",
+  "version": "0.0.1",
   "description": "a one page webapp that allows users to save tweets to HTML 5 local storage by dragging and dropping.",
-  "main": "app.js",
+  "main": "server.js",
   "dependencies": {
-    "bl": "^0.9.0",
-    "body-parser": "^1.6.5",
-    "concat-stream": "^1.4.6",
-    "crypto": "^0.0.3",
-    "duplexer": "^0.1.1",
-    "ejs": "^1.0.0",
-    "express": "^4.8.4",
-    "jade": "^1.5.0",
-    "request": "^2.40.0",
-    "split": "^0.3.0",
-    "stream-combiner": "^0.2.1",
-    "stylus": "^0.47.3",
-    "tar": "^1.0.1",
-    "through": "^2.3.4",
-    "through2-map": "^1.4.0",
-    "trumpet": "^1.6.5",
-    "websocket-stream": "^0.6.0"
+    "body-parser": "^1.9.0",
+    "errorhandler": "^1.2.0",
+    "express": "^4.9.5",
+    "jade": "^1.7.0"
   },
   "devDependencies": {},
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/ldskywalker/TweetSaver.git"
+    "url": "https://github.com/ldskywalker/tweet-saver.git"
   },
   "author": "Di Lu",
-  "license": "ISC",
+  "license": "MIT",
   "bugs": {
-    "url": "https://github.com/ldskywalker/TweetSaver/issues"
+    "url": "https://github.com/ldskywalker/tweet-saver/issues"
   },
-  "homepage": "https://github.com/ldskywalker/TweetSaver"
+  "homepage": "https://github.com/ldskywalker/tweet-saver"
 }
